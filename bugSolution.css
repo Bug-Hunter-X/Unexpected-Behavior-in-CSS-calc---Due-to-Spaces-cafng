@@ -1,0 +1,11 @@
+/*bug.css*/
+div {
+  width: calc( 100% - 20px ); /*Incorrect: extra spaces*/
+  background-color: lightblue; 
+}
+
+/*bugSolution.css*/
+div {
+  width: calc(100% - 20px); /*Correct: no extra spaces*/
+  background-color: lightgreen;
+}
